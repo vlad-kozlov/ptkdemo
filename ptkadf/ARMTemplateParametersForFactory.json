@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ptkadf"
+		},
+		"integrationRuntime_integrationRuntimePTKdemo": {
+			"value": "integrationRuntimePTKdemo"
+		},
+		"AzureDataLakeStoragePTKDemo_accountKey": {
+			"value": ""
+		},
+		"SqlServerLocal_connectionString": {
+			"value": ""
+		},
+		"SqlServerLocal_password": {
+			"value": ""
+		},
+		"AzureDataLakeStoragePTKDemo_properties_typeProperties_url": {
+			"value": "https://ptkdemoadls2.dfs.core.windows.net"
+		},
+		"SqlServerLocal_properties_typeProperties_userName": {
+			"value": "vkwindows10\\vlkozlov"
+		}
+	}
+}
