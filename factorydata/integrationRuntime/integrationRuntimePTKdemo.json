@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimePTKdemo",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
