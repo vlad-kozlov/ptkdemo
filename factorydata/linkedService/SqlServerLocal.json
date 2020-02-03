@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerLocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=vkwindows10;initial catalog=AdventureWorks2017",
+			"userName": "vkwindows10\\vlkozlov",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyNzA4NjkzMi02OWVjLTQwNDEtYTVkMy01MmE4ODM3YzM1OGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimePTKdemo",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
